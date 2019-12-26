@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+  <name>EG</name>
+  <version>1.0</version>
+  <creationDate>Sept 2019</creationDate>
+  <author>Luis Javier Gil</author>
+  <authorEmail></authorEmail>
+  <copyright>Copyright (C) 2018 Estegrafico. All rights reserved.</copyright>
+  <description>
+    <![CDATA[<link href="../templates/eg/css/admin.css" rel="stylesheet" type="text/css" media="all" /> 
+      <div class="templateinfo"><h3><strong>Construct joomla theme description</strong></h3>
+      <img src="../templates/eg/images/template.png" border="0" title="" alt=""/>
+      <p>Template Links</p> 
+      <p>Analiza tu Website <a href="http://informes.estegrafico.com" target="_blank">Analiza tu website</a><br />  
+      Follow us on Twitter <a href="http://twitter.com/estegrafico" target="_blank">Estegrafico Twitter</a><br />
+      Follow us on Facebook <a href="http://www.facebook.com/estegrafico" target="_blank">Estegrafico Facebook</a><br>
+      Talk with us on Skype <a>live:Estegrafico</a><br>
+      Envía un Mail @ <a href="mailto:info@estegrafico.com">author@estegrafico.com</a>
+      <br /></p></div>]]>
+  </description>
+  <languages folder="language">
+    <language tag="es-ES">es-ES/es-ES.tpl_eg.ini</language>
+   
+  </languages>
+  <files>
+    <folder>asstets/css</folder>
+    <folder>html</folder>
+    <folder>images</folder>
+    <folder>asstets/js</folder>
+    <folder>language</folder>
+    <folder>preset</folder>
+    <filename>favicon.ico</filename>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>templateDetails.xml</filename>
+    <filename>template_preview.png</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <positions>
+    <position>eg-menu</position>
+    <position>eg-left</position>
+    <position>eg-right</position>
+    <position>eg-ctatop</position>
+  <position>migas</position>
+	<position>eg1</position>
+  <position>eg2</position>
+  <position>eg3</position>
+  <position>eg4</position>
+  <position>eg5</position>
+	<position>eg-blog</position>
+	<position>eg-map</position>
+	<position>eg-contact</position>
+	<position>eg-footer</position>
+  </positions>
+  <config>
+    <fields name="params" addfieldpath="/templates/eg/googlefont">
+      <fieldset name="LOGOOPTIONS">
+        <field label="LOGOINFO"  type="spacer" class="alert alert-blue"/>
+        <field name="logo" class="" type="media" default=""
+					label="LOGO"
+					description="Add Logo" />
+      </fieldset>
+	  <fieldset name="HOME_VERSION">
+        <field label="HOME VERSION_INFO" type="spacer" class="alert-blue"/>
+        <field name="homepage_layout" type="list" default="home" label="Choose your Home" description="Choose your Layout">
+          
+          <option value="home2">Anchor</option>
+		  <option value="home3">Naranja</option>
+		  <option value="home4">Lluvia</option>
+		 
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+</extension>
